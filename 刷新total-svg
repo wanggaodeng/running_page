@@ -1,0 +1,3 @@
+python run_page/gen_svg.py --from-db --title "王高登的运动" --type github --athlete "王高登" --special-distance 10 --special-distance2 20 --special-color yellow --special-color2 red --output assets/github.svg --use-localtime --min-distance 0.5
+
+python run_page/gen_svg.py --from-db --title "Over 10km Runs" --type grid --athlete "王高登"  --output assets/grid.svg --min-distance 10.0 --special-color yellow --special-color2 red --special-distance 20 --special-distance2 40 --use-localtime
